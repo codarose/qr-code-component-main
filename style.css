@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box; 
+}
+
+
+html {
+    font-size: 10px; 
+
+}
+
+
+body {
+  background: hsl(212, 45%, 89%);
+  margin: 20vh auto; 
+  max-width: 375px; 
+  font-family: "outfit", sans-serif;
+
+}
+
+section {
+  max-width: 370px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+section img {
+  width: 100%;
+  border-radius: 10px;
+  flex-basis: 370px;
+}
+
+section h2 {
+    font-size: 2.5rem; 
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+    color: hsl(218, 44%, 22%); 
+   
+}
+
+section p {
+    font-size: 1.7rem; 
+    padding: 5px 15px; 
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    line-height: 1.4; 
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
